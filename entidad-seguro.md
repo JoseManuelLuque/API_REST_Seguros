@@ -17,7 +17,7 @@ En esta sección se define una clase de Kotlin llamada `Seguro` que está mapead
 
 La clase utiliza restricciones de validación para asegurar que los datos cumplen con ciertos requisitos antes de ser persistidos, aunque algunas validaciones las haré más adelante como la validación correcta del NIE no solo que cimpruebe la cantidad de caracteres y la edad por ejemplo (Validaciones en el service).
 
-```
+```kotlin
 package com.example.unsecuredseguros.model
 
 import jakarta.persistence.Column
@@ -42,11 +42,13 @@ data class Seguro(
     @Column(name = "idSeguro")
     val idSeguro: Int = 0,
 
+    //Comprobamos que NIE o DNI tengo obligatoriamente 8 carácteres y 1 dígito
     @Pattern(regexp = "^[0-9]{8}[A-Z]$", message = "El NIF debe tener 8 dígitos seguidos de una letra mayúscula")
     @Column(name = "nif", nullable = false, length = 10)
     val nif: String,
 
     @Column(name = "nombre", nullable = false, length = 100)
+    //Comprobamos que el campo no esté en blanco
     @NotBlank(message = "El nombre no puede estar en blanco")
     val nombre: String,
 
@@ -58,7 +60,6 @@ data class Seguro(
     val ape2: String? = null,
 
     @Column(name = "edad", nullable = false)
-    @Min(value = 0, message = "La edad no puede ser negativa")
     val edad: Int,
 
     @Column(name = "num_hijos", nullable = false)
@@ -78,4 +79,5 @@ data class Seguro(
     @Column(name = "embarazada", nullable = false)
     val embarazada: Boolean
 )
+
 ```
