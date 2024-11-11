@@ -1,3 +1,4 @@
 # Table of contents
 
-* [Page](README.md)
+* [API Rest Seguros](README.md)
+* [Entidad Seguro](entidad-seguro.md)
