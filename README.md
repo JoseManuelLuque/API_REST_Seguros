@@ -6,9 +6,9 @@ icon: gear
 
 Esta App esta creada con lenguaje kotlin y con el framework SpringBoot usando una base de datos MySQL
 
+<figure><img src=".gitbook/assets/1715179627566.jpeg" alt=""><figcaption></figcaption></figure>
 
 
-<figure><img src=".gitbook/assets/imagen_2024-11-11_220257033.png" alt=""><figcaption></figcaption></figure>
 
 ## Índice
 
