@@ -1,5 +1,16 @@
 ---
 icon: hammer-brush
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
 ---
 
 # Entidad Seguro
@@ -84,7 +95,7 @@ data class Seguro(
 ```
 {% endcode %}
 
-{% file src=".gitbook/assets/Seguro.kt" %}
+{% file src="../.gitbook/assets/Seguro.kt" %}
 Write a caption
 {% endfile %}
 
