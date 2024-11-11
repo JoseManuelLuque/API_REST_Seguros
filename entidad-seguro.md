@@ -1,5 +1,5 @@
 ---
-description: En esta página veremos la Entidad Seguro (modelo)
+icon: hammer-brush
 ---
 
 # Entidad Seguro
