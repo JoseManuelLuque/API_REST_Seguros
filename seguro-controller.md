@@ -1,2 +1,6 @@
+---
+icon: joystick
+---
+
 # Seguro Controller
 

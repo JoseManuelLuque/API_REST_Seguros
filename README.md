@@ -1,6 +1,14 @@
+---
+icon: gear
+---
+
 # API Rest Seguros
 
 Esta App esta creada con lenguaje kotlin y con el framework SpringBoot usando una base de datos MySQL
+
+
+
+<figure><img src=".gitbook/assets/imagen_2024-11-11_220257033.png" alt=""><figcaption></figcaption></figure>
 
 ## Índice
 
