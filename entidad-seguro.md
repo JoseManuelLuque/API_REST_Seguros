@@ -17,6 +17,7 @@ En esta sección se define una clase de Kotlin llamada `Seguro` que está mapead
 
 La clase utiliza restricciones de validación para asegurar que los datos cumplen con ciertos requisitos antes de ser persistidos, aunque algunas validaciones las haré más adelante como la validación correcta del NIE no solo que cimpruebe la cantidad de caracteres y la edad por ejemplo (Validaciones en el service).
 
+{% code fullWidth="true" %}
 ```kotlin
 package com.example.unsecuredseguros.model
 
@@ -81,3 +82,9 @@ data class Seguro(
 )
 
 ```
+{% endcode %}
+
+{% file src=".gitbook/assets/Seguro.kt" %}
+Write a caption
+{% endfile %}
+
