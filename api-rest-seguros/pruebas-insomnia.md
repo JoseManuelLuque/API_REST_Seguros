@@ -76,7 +76,11 @@ Imagen Insomnia
 
 #### Aplicación
 
+Por ejemplo vamos a buscar el seguro con id 5 y uno con id 8 que no existe para ver el codigo de error.
+
 <mark style="color:blue;">`GET`</mark> `/seguros/5`
+
+<mark style="color:blue;">`GET`</mark> `/seguros/8`
 
 **Respuesta**
 
